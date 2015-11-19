@@ -18,7 +18,7 @@ $(document).on('ready', function() {
     $("#caption").text($("#caption-text").val());
 });
 
-$(document).on('imput', '#caption-text', function() {
+$(document).on('input', '#caption-text', function() {
     $("#caption").text($(this).val());
 });
 
@@ -39,7 +39,7 @@ $(document).on('change', '#caption-size', function() {
 })
 
 $(document).on('change', '#caption-colour', function() {
-    $("#caption").css("colour", $(this).val());
+    $("#caption").css("color", $(this).val());
 })
 
 $(document).on('change', '#caption-align', function() {

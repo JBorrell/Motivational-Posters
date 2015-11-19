@@ -75,7 +75,7 @@ footer div {
 #workspace {
     width: 600px;
     min-height: 300px;
-    border: 5px dashed red;
+    border: 5px solid black;
     margin: 0 auto;
     position: relative;
 }
