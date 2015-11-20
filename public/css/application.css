@@ -1,7 +1,7 @@
 body {
-    background-image: url(/images/tree_bark.png);
+    background-image: url(/images/cloudy-sky.png);
     text-align: center;
-    color: rgb(0, 51, 63);
+    color: rgb(0, 0, 0);
     font-family: Helvetica, Arial;
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body {
 
 header {
     padding: 15px;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 1px 0 3px rgba(0,0,0, 0.3);
 }
 
@@ -41,7 +41,7 @@ footer div {
 }
 
 #style-caption {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 10px;
     box-shadow: 1px 0 3px rgba(0,0,0, 0.3);
 }
@@ -52,7 +52,16 @@ footer div {
     font-size: 14px;
 }
 
+#caption2-controls {
+    padding: 10px;
+    font-size: 14px;
+}
+
 #caption-controls input[type="number"] {
+    width: 50px;
+}
+
+#caption2-controls input[type="number"] {
     width: 50px;
 }
 
@@ -68,7 +77,12 @@ footer div {
 }
 
 #caption-text {
-    width: 600px;
+    width: 400px;
+    text-align: center;
+}
+
+#bottom-text {
+    width: 400px;
     text-align: center;
 }
 
@@ -88,6 +102,19 @@ footer div {
     position: absolute;
     top: 10px;
     left:10px;
+    font-weight: bold;
+    font-family: Helvetica;
+    text-shadow: 0 0 5px rgba(0,0,0,0.4);
+    width: 400px;
+    font-size: 32px;
+    color: red;
+    margin: 0;
+}
+
+#caption2 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
     font-weight: bold;
     font-family: Helvetica;
     text-shadow: 0 0 5px rgba(0,0,0,0.4);

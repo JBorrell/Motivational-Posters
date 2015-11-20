@@ -12,11 +12,12 @@
     <body>
       <header>
         <h1>Motivational Posters</h1>
+        <p>A step by step guide</p>
       </header>
       
       <section id="select-image">
         <h2>Step 1. Select an image</h2>
-        <p>Enter the keyword to search for images</p>
+        <p>Enter a keyword to search for images</p>
         <form id="search-form">
           <input id="search-term" type="text" placeholder="Your search here">
           <input id="submit-search" type="submit" value="Search!">
@@ -27,30 +28,57 @@
       
       <section id="add-text">
         <h2>Step 2. Add text</h2>
-        <input id="caption-text" type="text" placeholder="Your text here">
+        <p>Line of text at the top of image</p>
+        <input id="caption-text" type="text" placeholder="Top line of text here">
+        <p>Line of text at the bottom of image</p>
+        <input id="bottom-text" type="text" placeholder="Bottom line of text here">
       </section>
       
       <section id="style-caption">
         <h2>Step 3. Style it!</h2>
         <div id="workspace">
           <p id="caption"></p>
+          <p id="caption2"></p>
         </div>
+        <p>Top Line</p>
         <div id="caption-controls">
           Left: <input type="number" value="10" id="caption-left">
           Top: <input type="number" value="10" id="caption-top">
           Width: <input type="number" value="400" id="caption-width">
           Size: <input type="number" value="32" id="caption-size">
           Colour: <select id="caption-colour">
-            <option>red</option>
-            <option>green</option>
-            <option>white</option>
-            <option>black</option>
-            <option>blue</option>
-            <option>yellow</option>
-            <option>gray</option>
-            <option>orange</option>
+            <option>Red</option>
+            <option>Green</option>
+            <option>White</option>
+            <option>Black</option>
+            <option>Blue</option>
+            <option>Yellow</option>
+            <option>Gray</option>
+            <option>Orange</option>
           </select>
           Align: <select id="caption-align">
+            <option>left</option>
+            <option>center</option>
+            <option>right</option>
+          </select>
+        </div>
+        <p>Bottom Line</p>
+        <div id="caption2-controls">
+          Left: <input type="number" value="10" id="caption2-left">
+          Bottom: <input type="number" value="10" id="caption2-bottom">
+          Width: <input type="number" value="400" id="caption2-width">
+          Size: <input type="number" value="32" id="caption2-size">
+          Colour: <select id="caption2-colour">
+            <option>Red</option>
+            <option>Green</option>
+            <option>White</option>
+            <option>Black</option>
+            <option>Blue</option>
+            <option>Yellow</option>
+            <option>Gray</option>
+            <option>Orange</option>
+          </select>
+          Align: <select id="caption2-align">
             <option>left</option>
             <option>center</option>
             <option>right</option>
